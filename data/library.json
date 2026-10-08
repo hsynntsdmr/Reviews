@@ -284,6 +284,59 @@
       ],
       "episodeCount": 26,
       "episodes": {}
+    },
+    {
+      "id": "tv-1705",
+      "type": "tv",
+      "tmdbId": 1705,
+      "title": "Fringe",
+      "originalTitle": "Fringe",
+      "year": 2008,
+      "poster": "/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg",
+      "backdrop": "/rYlIRj9NA945UuYohw9jUbDEbts.jpg",
+      "overview": "FBI dünya çapında açıklanamayan olayları aydınlatmak için Boston, Massachusett merkezli Fringe adında bir ekip kurar. FBI’da özel ajan olarak görev alan Olivia Dunham, metafizik üzerine araştırmalarda bulunan bilim adamı Walter Bishop ve bilim adamının oğlu Peter Bishop’ın esrarengiz olayları araştırmak için görevlendirilir.",
+      "genres": [
+        "Bilim Kurgu & Fantazi",
+        "Dram",
+        "Gizem"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:27:18.230Z",
+      "updatedAt": "2026-10-08T22:27:18.230Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 0,
+          "count": 46
+        },
+        {
+          "n": 1,
+          "count": 20
+        },
+        {
+          "n": 2,
+          "count": 23
+        },
+        {
+          "n": 3,
+          "count": 22
+        },
+        {
+          "n": 4,
+          "count": 22
+        },
+        {
+          "n": 5,
+          "count": 13
+        }
+      ],
+      "episodeCount": 100,
+      "episodes": {}
     }
   ]
 }
