@@ -337,6 +337,65 @@
       ],
       "episodeCount": 100,
       "episodes": {}
+    },
+    {
+      "id": "tv-87083",
+      "type": "tv",
+      "tmdbId": 87083,
+      "title": "Formula 1: Drive to Survive",
+      "originalTitle": "Formula 1: Drive to Survive",
+      "year": 2019,
+      "poster": "/xGOGjJFYYeRSoOpnhN9IHZTXIxj.jpg",
+      "backdrop": "/xefmNmSGCApfRPaqhIRTaAjFlpo.jpg",
+      "overview": "Formula 1'in kıyasıya rekabetle dolu her sezonunda pilotlar, yöneticiler ve takım sahipleri, hayatı hem pistte hem de pist dışında hızlı yaşıyor.",
+      "genres": [
+        "Belgesel"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:28:24.891Z",
+      "updatedAt": "2026-10-08T22:28:24.891Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 1,
+          "count": 10
+        },
+        {
+          "n": 2,
+          "count": 10
+        },
+        {
+          "n": 3,
+          "count": 10
+        },
+        {
+          "n": 4,
+          "count": 10
+        },
+        {
+          "n": 5,
+          "count": 10
+        },
+        {
+          "n": 6,
+          "count": 10
+        },
+        {
+          "n": 7,
+          "count": 10
+        },
+        {
+          "n": 8,
+          "count": 8
+        }
+      ],
+      "episodeCount": 78,
+      "episodes": {}
     }
   ]
 }
