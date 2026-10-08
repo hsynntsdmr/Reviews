@@ -239,6 +239,51 @@
       ],
       "episodeCount": 73,
       "episodes": {}
+    },
+    {
+      "id": "tv-94997",
+      "type": "tv",
+      "tmdbId": 94997,
+      "title": "House of the Dragon",
+      "originalTitle": "House of the Dragon",
+      "year": 2022,
+      "poster": "/6YM292PX2gSIBk16hufmlGT3iQW.jpg",
+      "backdrop": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+      "overview": "George R.R. Martin'in \"Fire & Blood\" adlı eserinden uyarlanan ve Game of Thrones'taki olaylardan 200 yıl öncesini konu alan dizi, Targaryen Hanesi'nin gücünün zirvesinde olduğu dönemde bir iç veraset savaşını anlatıyor.",
+      "genres": [
+        "Bilim Kurgu & Fantazi",
+        "Dram",
+        "Aksiyon & Macera"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:26:14.539Z",
+      "updatedAt": "2026-10-08T22:26:14.539Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 0,
+          "count": 89
+        },
+        {
+          "n": 1,
+          "count": 10
+        },
+        {
+          "n": 2,
+          "count": 8
+        },
+        {
+          "n": 3,
+          "count": 8
+        }
+      ],
+      "episodeCount": 26,
+      "episodes": {}
     }
   ]
 }
