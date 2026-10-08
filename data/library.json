@@ -1,4 +1,62 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "tv-44217",
+      "type": "tv",
+      "tmdbId": 44217,
+      "title": "Vikingler",
+      "originalTitle": "Vikings",
+      "year": 2013,
+      "poster": "/qkCh6cFSHikSIFTWUQyJ2qJzqsy.jpg",
+      "backdrop": "/13kblIK8DnxMurcRDkeyy2sGR7v.jpg",
+      "overview": "Viking kahramanı Ragnar Lothbrok’un, ileriyi göremeyen, yetersiz bir lidere meydan okuyarak Norse sınırlarını nasıl genişlettiğini seyrettiğimiz gerçekçi bir dram.",
+      "genres": [
+        "Aksiyon & Macera",
+        "Dram",
+        "Savaş & Politik"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:04:24.434Z",
+      "updatedAt": "2026-10-08T22:04:24.434Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 0,
+          "count": 31
+        },
+        {
+          "n": 1,
+          "count": 9
+        },
+        {
+          "n": 2,
+          "count": 10
+        },
+        {
+          "n": 3,
+          "count": 10
+        },
+        {
+          "n": 4,
+          "count": 20
+        },
+        {
+          "n": 5,
+          "count": 20
+        },
+        {
+          "n": 6,
+          "count": 20
+        }
+      ],
+      "episodeCount": 89,
+      "episodes": {}
+    }
+  ]
 }
