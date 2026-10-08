@@ -62,6 +62,73 @@
       ],
       "episodeCount": 89,
       "episodes": {}
+    },
+    {
+      "id": "tv-37680",
+      "type": "tv",
+      "tmdbId": 37680,
+      "title": "Suits",
+      "originalTitle": "Suits",
+      "year": 2011,
+      "poster": "/vQiryp6LioFxQThywxbC6TuoDjy.jpg",
+      "backdrop": "/or0E36KfzJYZwqXeiCfm1JgepKF.jpg",
+      "overview": "Önemli bir avukatı zehir gibi zekâsıyla etkileyen üniversite terk genç, avukatlık ruhsatı olmadığı halde altın gibi bir iş ortaklığı fırsatını on ikiden vurur.",
+      "genres": [
+        "Dram"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:24:32.137Z",
+      "updatedAt": "2026-10-08T22:24:32.138Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 0,
+          "count": 76
+        },
+        {
+          "n": 1,
+          "count": 12
+        },
+        {
+          "n": 2,
+          "count": 16
+        },
+        {
+          "n": 3,
+          "count": 16
+        },
+        {
+          "n": 4,
+          "count": 16
+        },
+        {
+          "n": 5,
+          "count": 16
+        },
+        {
+          "n": 6,
+          "count": 16
+        },
+        {
+          "n": 7,
+          "count": 16
+        },
+        {
+          "n": 8,
+          "count": 16
+        },
+        {
+          "n": 9,
+          "count": 10
+        }
+      ],
+      "episodeCount": 134,
+      "episodes": {}
     }
   ]
 }
