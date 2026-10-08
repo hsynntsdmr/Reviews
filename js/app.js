@@ -29,7 +29,15 @@ const selectedSeason = {};
 // ---------------------------------------------------------------- yönlendirme
 
 function parseRoute() {
-  const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  // Bozuk % dizileri decodeURIComponent'i patlatır; o durumda ham değer kullanılır (bulunamadı sayfası çıkar).
+  const decode = (s) => {
+    try {
+      return decodeURIComponent(s);
+    } catch {
+      return s;
+    }
+  };
+  const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decode);
   if ((parts[0] === 'tv' || parts[0] === 'movie') && parts[1]) {
     const num = (v) => (v === undefined || Number.isNaN(Number(v)) ? null : Number(v));
     return { name: 'item', type: parts[0], id: parts[1], season: num(parts[2]), episode: num(parts[3]) };

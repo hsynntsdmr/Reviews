@@ -2,19 +2,14 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
+  <!-- Token tarayıcıda durduğu için yalnızca bu sitenin kendi dosyalarına ve gereken iki API'ye izin verilir. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: https://image.tmdb.org; connect-src 'self' https://api.github.com https://api.themoviedb.org; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jenerik Sonrası</title>
   <meta name="description" content="İzlediğim dizi ve filmlerden aklımda kalanlar, merak ettiklerim ve puanlarım.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f0b35a'/%3E%3Cpath d='M12 9l12 7-12 7z' fill='%231a1206'/%3E%3C/svg%3E">
-  <script>
-    // Tema, ilk boyamadan önce ayarlanır (yanıp sönmeyi önler).
-    (function () {
-      var t;
-      try { t = localStorage.getItem('jo.theme'); } catch (e) {}
-      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-      document.documentElement.dataset.theme = t;
-    })();
-  </script>
+  <script src="js/theme.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,7 +20,7 @@
     <p>Yorumlar kişiseldir. Dizi ve film bilgileri ile afişler TMDB'den gelir; bu site TMDB tarafından onaylanmamış veya sertifikalandırılmamıştır.</p>
   </footer>
   <div id="toasts" aria-live="polite"></div>
-  <noscript><p style="padding:2rem">Bu sayfa JavaScript gerektirir.</p></noscript>
+  <noscript><p class="empty">Bu sayfa JavaScript gerektirir.</p></noscript>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

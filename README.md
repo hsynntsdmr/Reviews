@@ -55,7 +55,20 @@ Token olmadan denemek için Ayarlar'da "Deneme modu"nu aç; yorumlar yalnızca o
 | `js/tmdb.js` | TMDB istekleri |
 | `data/library.json` | Tüm yorumlar (git geçmişi sürüm geçmişin olur) |
 
+## Güvenlik
+
+Sitede sunucu ve üçüncü taraf script yok; tek riskli şey, yazma modu için tarayıcıda duran GitHub token'ı. Önlemler:
+
+- **Token'ı daralt:** fine-grained token, yalnızca bu repo, yalnızca *Contents: Read and write*. **Son kullanma tarihi koy** (ör. 90 gün); dolunca yenilersin.
+- **Kayıp cihaz:** telefon/bilgisayar kaybolursa ya da ortak bir cihazda giriş yaptıysan önce Ayarlar → **Çıkış yap**, sonra <https://github.com/settings/personal-access-tokens> adresinden token'ı **Revoke** et.
+- **GitHub hesabına 2FA aç** ve Pages'te *Enforce HTTPS* kutusunun işaretli olduğundan emin ol (varsayılan açıktır).
+- **CSP:** `index.html` yalnızca sitenin kendi dosyalarına, `api.github.com`, `api.themoviedb.org` ve `image.tmdb.org` adreslerine izin verir. Bir XSS açığı çıksa bile token başka bir yere gönderilemez. **Yeni bir dış servis eklersen** bu satırı da güncellemen gerekir.
+- **Kod tarafı:** kullanıcı metni hiçbir yerde `innerHTML` ile eklenmez; bağımlılık yok, dolayısıyla tedarik zinciri riski de yok.
+- **Gizlilik:** afişler TMDB'den yüklendiği için ziyaretçilerin IP adresi TMDB'ye görünür (site adresi `no-referrer` ile gizlenir). TMDB anahtarı yalnızca sende, ziyaretçilerde yok.
+
 ## Notlar
+
+- Repo public olduğu için **sildiğin yorumlar git geçmişinde kalır.** Hassas bir şey yanlışlıkla yazılırsa yalnızca silmek yetmez; geçmişi de temizlemek gerekir (ya da repoyu silip yeniden açmak).
 
 - Yorumlar public repoda durduğu için herkesin okuyabileceği şeyler yaz. Spoiler işareti yalnızca sayfada gizler, `library.json` dosyasında açık metin görünür.
 - `library.json` 1 MB'ı geçerse bile okunur, ama o noktada veriyi dizi başına dosyalara bölmek mantıklı olur.

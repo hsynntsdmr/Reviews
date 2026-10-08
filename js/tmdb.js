@@ -55,6 +55,8 @@ export const cachedSeason = (tvId, n) => seasonCache.get(`${tvId}:${n}`) || null
 export async function season(tvId, n) {
   const hit = cachedSeason(tvId, n);
   if (hit) return hit;
+  // Kimlikler veri dosyasından gelir; yol parçası olmadan önce sayı olduklarından emin ol.
+  if (!Number.isInteger(tvId) || !Number.isInteger(n)) throw new Error('Geçersiz dizi ya da sezon kimliği.');
   const data = await api(`/tv/${tvId}/season/${n}`);
   const eps = (data.episodes || []).map((e) => ({
     episode: e.episode_number,
