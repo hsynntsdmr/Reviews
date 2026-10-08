@@ -129,6 +129,51 @@
       ],
       "episodeCount": 134,
       "episodes": {}
+    },
+    {
+      "id": "tv-124364",
+      "type": "tv",
+      "tmdbId": 124364,
+      "title": "FROM",
+      "originalTitle": "FROM",
+      "year": 2022,
+      "poster": "/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "backdrop": "/m7eiSGHFzr584zFmetGqkqaU6BN.jpg",
+      "overview": "Amerika Birleşik Devletleri'nin ortasındaki kabus gibi bir şehir, içine giren herkesi tuzağa düşürür. Kasaba sakinleri, normallik duygusunu sürdürmek ve bir çıkış yolu aramak için savaşırken, güneş battığında ortaya çıkan korkunç yaratıklar da dahil olmak üzere, çevredeki ormandan gelen tehditlere karşı da hayatta kalmak için çabalar.",
+      "genres": [
+        "Gizem",
+        "Dram",
+        "Bilim Kurgu & Fantazi"
+      ],
+      "status": "watching",
+      "addedAt": "2026-10-08T22:25:16.475Z",
+      "updatedAt": "2026-10-08T22:25:16.475Z",
+      "rating": null,
+      "comment": "",
+      "questions": [],
+      "tags": [],
+      "watchedAt": "",
+      "spoiler": false,
+      "seasons": [
+        {
+          "n": 1,
+          "count": 10
+        },
+        {
+          "n": 2,
+          "count": 10
+        },
+        {
+          "n": 3,
+          "count": 10
+        },
+        {
+          "n": 4,
+          "count": 10
+        }
+      ],
+      "episodeCount": 40,
+      "episodes": {}
     }
   ]
 }
