@@ -1,41 +1,41 @@
 /* ---------- Tema ---------- */
 :root {
-  --bg: #f4efe6;
-  --surface: #fffcf6;
-  --surface-2: #ece5d8;
-  --text: #211d17;
-  --muted: #6a6254;
-  --line: #d9cfbd;
-  --accent: #a84a08;
-  --accent-ink: #fff8ef;
-  --accent-soft: #f4dcc2;
-  --danger: #a82f1a;
+  --bg: #f7f1ee;
+  --surface: #fffaf8;
+  --surface-2: #efe4e0;
+  --text: #251a1c;
+  --muted: #74636a;
+  --line: #e2d3d0;
+  --accent: #9b1d3f;
+  --accent-ink: #fff4f6;
+  --accent-soft: #f3d9df;
+  --danger: #bd3d0e;
   --r-great: #17724a;
   --r-good: #1f6f80;
   --r-mid: #8f5f06;
-  --r-low: #a82f1a;
-  --shadow: 0 1px 2px rgb(40 30 10 / 0.08), 0 8px 24px rgb(40 30 10 / 0.08);
+  --r-low: #bd3d0e;
+  --shadow: 0 1px 2px rgb(50 20 25 / 0.08), 0 8px 24px rgb(50 20 25 / 0.08);
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
-  --bg: #121014;
-  --surface: #1b181f;
-  --surface-2: #26222d;
-  --text: #f0eadf;
-  --muted: #a69e92;
-  --line: #36313d;
-  --accent: #f0b35a;
-  --accent-ink: #1a1206;
-  --accent-soft: #3b2d18;
-  --danger: #f08a76;
+  --bg: #120d10;
+  --surface: #1d1519;
+  --surface-2: #2a2025;
+  --text: #f3ebe8;
+  --muted: #b3a2a4;
+  --line: #3a2c31;
+  --accent: #f0829b;
+  --accent-ink: #2a0713;
+  --accent-soft: #3d1b27;
+  --danger: #ff9366;
   --r-great: #62d09a;
   --r-good: #66c3d6;
   --r-mid: #e6b64f;
-  --r-low: #f28b78;
-  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 30px rgb(0 0 0 / 0.35);
+  --r-low: #ff9366;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.45), 0 10px 30px rgb(0 0 0 / 0.4);
   color-scheme: dark;
 }
 
@@ -174,7 +174,7 @@ img { display: block; max-width: 100%; }
 :root:not([data-theme="dark"]) .rating.on-poster.r-great { color: #62d09a; }
 :root:not([data-theme="dark"]) .rating.on-poster.r-good { color: #66c3d6; }
 :root:not([data-theme="dark"]) .rating.on-poster.r-mid { color: #e6b64f; }
-:root:not([data-theme="dark"]) .rating.on-poster.r-low { color: #f28b78; }
+:root:not([data-theme="dark"]) .rating.on-poster.r-low { color: #ff9366; }
 
 .status { font-size: 0.78rem; font-weight: 600; width: fit-content; padding: 1px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
 .status.s-watching { background: var(--accent-soft); color: var(--accent); }
